@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q%&k39m-uska8eqcd!t-+w7ferg2@tdd%goi@7apwhs$d&xcbo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'canichesurveys.pythonanywhere.com' ]
 
 
 # Application definition
@@ -62,7 +62,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://caniche-surveys.pythonanywhere.com'
+    'https://canichesurveys.pythonanywhere.com'
 ]
 
 ROOT_URLCONF = 'cniche.urls'
