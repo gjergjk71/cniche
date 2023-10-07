@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-q%&k39m-uska8eqcd!t-+w7ferg2@tdd%goi@7apwhs$d&xcbo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [ 'canichesurveys.pythonanywhere.com' ]
 
